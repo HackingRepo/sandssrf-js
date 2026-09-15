@@ -24,7 +24,7 @@ and our security community finds parser vulns, so that is the ultimate solution
 ## Usage
 
 ```js
-const { createSSRFSandbox } = require('sandssrf');
+const { createSSRFSandbox } = require('@insitetechjp/sandssrf');
 
 const sandbox = createSSRFSandbox();
 const agent = sandbox.Agent();
