@@ -1,0 +1,43 @@
+{
+  "name": "@insitetechjp/sandssrf",
+  "version": "1.0.0",
+  "description": "SSRF containment for Node.js: user-supplied URLs run against a simulated internal network in a Linux namespace, while public traffic is unaffected.",
+  "keywords": [
+    "ssrf",
+    "sandbox",
+    "network-namespace",
+    "dns-rebinding",
+    "security"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "require": "./src/index.js",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "linux"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
