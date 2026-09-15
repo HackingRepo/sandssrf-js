@@ -1,0 +1,10 @@
+node_modules/
+*.log
+*.tgz
+
+# editor / OS artefacts
+*.swp
+*.swo
+*~
+.DS_Store
+*.zip
